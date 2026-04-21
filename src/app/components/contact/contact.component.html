@@ -1,0 +1,23 @@
+<section id="contact" class="contact">
+  <div class="container">
+    <h3 class="section-title">Formulario de contacto</h3>
+    <p class="section-subtitle">Dejanos tu mensaje y te responderemos con novedades y promociones.</p>
+    <form (ngSubmit)="onSubmit()" #f="ngForm">
+      <label>
+        Nombre
+        <input name="name" [(ngModel)]="name" required />
+      </label>
+      <label>
+        Email
+        <input name="email" [(ngModel)]="email" required type="email" />
+      </label>
+      <label>
+        Mensaje
+        <textarea name="message" [(ngModel)]="message" rows="4"></textarea>
+      </label>
+      <div>
+        <button type="submit">Enviar</button>
+      </div>
+    </form>
+  </div>
+</section>

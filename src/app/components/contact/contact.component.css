@@ -1,0 +1,8 @@
+.contact{padding:3rem 1rem;background:var(--section-alt)}
+.contact form{max-width:680px;margin:0 auto;display:grid;gap:.9rem;background:var(--card);padding:1.25rem;border-radius:12px;box-shadow:0 12px 28px rgba(2,6,23,.08)}
+.contact label{display:flex;flex-direction:column;font-weight:700;color:#334155}
+.contact input,.contact textarea{padding:.75rem;border-radius:8px;border:1px solid #d7deea;outline:none;color:#0f172a}
+.contact input:focus,.contact textarea:focus{box-shadow:0 6px 18px rgba(14,165,163,0.08);border-color:var(--accent-2)}
+.contact button{background:var(--accent);color:#fff;padding:.7rem 1rem;border-radius:8px;border:0;cursor:pointer;font-weight:700}
+.contact button:disabled{opacity:.6;cursor:not-allowed}
+

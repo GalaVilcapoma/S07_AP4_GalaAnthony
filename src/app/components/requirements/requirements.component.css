@@ -1,0 +1,4 @@
+.requirements{padding:3rem 1rem;background:var(--section-bg)}
+.requirements h3{margin-bottom:.6rem;color:var(--text)}
+.checklist{list-style:none;padding:0;margin:0 0 1rem 0;display:grid;gap:.4rem}
+.checklist li{background:#f8fafc;color:var(--text);padding:.75rem .9rem;border-radius:8px;max-width:860px;border:1px solid #e8eef7}

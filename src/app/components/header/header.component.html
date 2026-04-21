@@ -1,0 +1,8 @@
+<header class="site-header">
+  <div class="container">
+    <div class="brand">GameZone</div>
+    <nav class="nav">
+      <a *ngFor="let item of nav" (click)="onNavClick(item.href)">{{ item.label }}</a>
+    </nav>
+  </div>
+</header>

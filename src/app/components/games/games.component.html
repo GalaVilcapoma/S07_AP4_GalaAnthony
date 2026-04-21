@@ -1,0 +1,14 @@
+<section id="games" class="games">
+  <div class="container">
+    <h3 class="section-title">Catálogo de juegos</h3>
+    <p class="section-subtitle">Elige entre títulos destacados de acción, aventura y estrategia.</p>
+    <div class="grid">
+      <article class="card" *ngFor="let game of games">
+        <div class="thumb">🎮</div>
+        <h4>{{ game.title }}</h4>
+        <p class="meta">{{ game.genre }} • <strong>{{ game.price }}</strong></p>
+        <button (click)="viewDetails(game)">Ver detalles</button>
+      </article>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,23 @@
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  background: linear-gradient(90deg, rgba(7,16,38,0.92), rgba(11,18,32,0.96));
+  backdrop-filter: blur(6px);
+  border-bottom: 1px solid rgba(255,255,255,0.03);
+  padding: 0.7rem 0;
+}
+.site-header .container {display:flex;justify-content:space-between;align-items:center}
+.brand{font-weight:900;font-size:1.15rem;color:var(--accent);letter-spacing:0.02em}
+.nav a{color:#e6eef7;margin-left:1rem;cursor:pointer;padding:0.35rem 0.6rem;border-radius:6px;text-decoration:none;transition:all .15s}
+.nav a:hover{background:rgba(255,255,255,0.03);color:#fff;transform:translateY(-1px)}
+
+.site-header{height:64px}
+
+@media (max-width:700px){
+  .site-header .container{flex-direction:column;gap:.35rem}
+  .nav{display:flex;flex-wrap:wrap;justify-content:center}
+  .nav a{margin-left:.35rem}
+  .site-header{height:auto}
+}
+

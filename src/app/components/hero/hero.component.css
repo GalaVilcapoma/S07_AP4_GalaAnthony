@@ -1,0 +1,16 @@
+.hero{
+	padding:6.5rem 1rem 4rem;
+	color:#fff;
+	text-align:center;
+	background: radial-gradient(circle at 70% -20%, rgba(255,77,109,.28), transparent 45%), linear-gradient(180deg, #09142e, #071022 70%);
+}
+.hero h2{font-size:2.6rem;margin:0 0 .6rem;letter-spacing:-0.02em}
+.hero p{opacity:0.92;margin:0 auto 1rem;max-width:720px;color:rgba(255,255,255,0.9)}
+.hero .actions button{background:var(--accent);border:0;padding:.8rem 1.2rem;color:#fff;border-radius:10px;cursor:pointer;font-weight:700;box-shadow:0 6px 18px rgba(255,77,109,0.18);transition:transform .18s,box-shadow .18s}
+.hero .actions button:hover{transform:translateY(-4px);box-shadow:0 16px 36px rgba(255,77,109,0.16)}
+
+@media (max-width:700px){
+	.hero{padding:5.6rem 1rem 3rem}
+	.hero h2{font-size:2rem}
+}
+
